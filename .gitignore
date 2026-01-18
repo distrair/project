@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+backend/venv/
+backend/*.pyc
+backend/*.pyo
+
+# Python virtual environments
+*.egg-info/
+dist/
+build/
+
+# Local env files with secrets
+.env
+backend/.env
+
+# FastAPI Uvicorn logs
+*.log
+
+# Authlib session files (if any)
+*.db
+session_db/
+
+# C++ build folders
+auth/build/
+auth/*.o
+auth/*.obj
+auth/*.exe
+auth/CMakeFiles/
+auth/CMakeCache.txt
+auth/cmTryCompile*
+auth/*.user
+auth/*.vcxproj*
+
+# Go compiled binaries
+telegram/bin/
+telegram/*.exe
+telegram/*.out
+
+# Go module cache
+**/vendor/
+*.exe
+*.test
+*.out
+
+# React (Node)
+node_modules/
+web/node_modules/
+web/.DS_Store
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# Build output
+web/dist/
+web/build/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
